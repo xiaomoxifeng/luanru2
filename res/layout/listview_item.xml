@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_item"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="ITEM" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:background="@android:color/darker_gray"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/tv_functions"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_del_bg"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_coating"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>
