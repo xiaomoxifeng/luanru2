@@ -11,4 +11,6 @@ public class GlobalConsts {
 	//图灵机器人
 		public static final String ROBOT_URL="http://www.tuling123.com/openapi/api";
 		public static final String ROBOT_API_KEY="2b514c7ec1489cf6eb000d62920901da";
+		//微信语音
+		public static final String WEIXIN_API_KEY = "39d77d64c1be90c910023597beaf7a4af5fbf7dbe088a748";
 }
