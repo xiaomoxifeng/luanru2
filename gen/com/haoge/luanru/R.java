@@ -101,6 +101,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>margin</code></td><td>0</td><td></td></tr>
 <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
          */
         public static final int touchModeAbove=0x7f010006;
@@ -112,6 +113,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>margin</code></td><td>0</td><td></td></tr>
 <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
          */
         public static final int touchModeBehind=0x7f010007;
@@ -218,76 +220,77 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int xihuan=0x7f02003a;
     }
     public static final class id {
-        public static final int action_settings=0x7f050045;
-        public static final int bottomLayout=0x7f050037;
-        public static final int btn_bottom=0x7f05001b;
-        public static final int btn_menu2=0x7f050039;
-        public static final int btn_pause2=0x7f05003d;
-        public static final int btn_play2=0x7f05003e;
-        public static final int btn_playNext2=0x7f05003b;
+        public static final int action_settings=0x7f050046;
+        public static final int bottomLayout=0x7f050038;
+        public static final int btn_bottom=0x7f05001c;
+        public static final int btn_menu2=0x7f05003a;
+        public static final int btn_pause2=0x7f05003e;
+        public static final int btn_play2=0x7f05003f;
+        public static final int btn_playNext2=0x7f05003c;
         public static final int fullscreen=0x7f050003;
-        public static final int id_=0x7f050025;
-        public static final int id_circle_menu_item_center=0x7f050007;
-        public static final int id_circle_menu_item_image=0x7f050005;
-        public static final int id_circle_menu_item_text=0x7f050006;
-        public static final int id_from_date=0x7f050024;
-        public static final int id_from_msg_info=0x7f050026;
-        public static final int id_input_msg=0x7f05001d;
-        public static final int id_left_menu_frame=0x7f050031;
-        public static final int id_listview_categories=0x7f050030;
-        public static final int id_lv_chat=0x7f05001e;
-        public static final int id_ly_bottom=0x7f050019;
-        public static final int id_ly_top=0x7f050018;
-        public static final int id_menulayout=0x7f050008;
-        public static final int id_send_msg=0x7f05001c;
-        public static final int id_to_date=0x7f05002e;
-        public static final int id_to_msg_info=0x7f05002f;
-        public static final int imageView1=0x7f05000b;
-        public static final int imageView2=0x7f05000c;
-        public static final int imageView4=0x7f05000f;
-        public static final int ivAlbum=0x7f050027;
-        public static final int ivVoice=0x7f05001a;
-        public static final int iv_albumpic=0x7f05000d;
-        public static final int iv_albumpic2=0x7f050038;
-        public static final int iv_next=0x7f050017;
-        public static final int iv_play=0x7f050015;
-        public static final int iv_pre=0x7f050016;
-        public static final int ivdownload=0x7f050011;
+        public static final int id_=0x7f050026;
+        public static final int id_circle_menu_item_center=0x7f050008;
+        public static final int id_circle_menu_item_image=0x7f050006;
+        public static final int id_circle_menu_item_text=0x7f050007;
+        public static final int id_from_date=0x7f050025;
+        public static final int id_from_msg_info=0x7f050027;
+        public static final int id_input_msg=0x7f05001e;
+        public static final int id_left_menu_frame=0x7f050032;
+        public static final int id_listview_categories=0x7f050031;
+        public static final int id_lv_chat=0x7f05001f;
+        public static final int id_ly_bottom=0x7f05001a;
+        public static final int id_ly_top=0x7f050019;
+        public static final int id_menulayout=0x7f050009;
+        public static final int id_send_msg=0x7f05001d;
+        public static final int id_to_date=0x7f05002f;
+        public static final int id_to_msg_info=0x7f050030;
+        public static final int imageView1=0x7f05000c;
+        public static final int imageView2=0x7f05000d;
+        public static final int imageView4=0x7f050010;
+        public static final int ivAlbum=0x7f050028;
+        public static final int ivVoice=0x7f05001b;
+        public static final int iv_albumpic=0x7f05000e;
+        public static final int iv_albumpic2=0x7f050039;
+        public static final int iv_next=0x7f050018;
+        public static final int iv_play=0x7f050016;
+        public static final int iv_pre=0x7f050017;
+        public static final int ivdownload=0x7f050012;
         public static final int left=0x7f050000;
-        public static final int linearLayout1=0x7f05000e;
-        public static final int ll_parent=0x7f050032;
-        public static final int load_layout=0x7f05001f;
-        public static final int lv_music_local=0x7f050022;
-        public static final int lv_music_online=0x7f050023;
+        public static final int linearLayout1=0x7f05000f;
+        public static final int ll_parent=0x7f050033;
+        public static final int load_layout=0x7f050020;
+        public static final int lv_music_local=0x7f050023;
+        public static final int lv_music_online=0x7f050024;
         public static final int margin=0x7f050002;
-        public static final int musicname_tv2=0x7f050040;
-        public static final int playLayout=0x7f05003c;
-        public static final int playback_seekbar2=0x7f050043;
-        public static final int relativeLayout1=0x7f050009;
+        public static final int musicname_tv2=0x7f050041;
+        public static final int none=0x7f050004;
+        public static final int playLayout=0x7f05003d;
+        public static final int playback_seekbar2=0x7f050044;
+        public static final int relativeLayout1=0x7f05000a;
         public static final int right=0x7f050001;
-        public static final int rl_top=0x7f050020;
-        public static final int seekBar1=0x7f050012;
-        public static final int selected_view=0x7f050004;
-        public static final int singer2=0x7f05003f;
-        public static final int slidingmenumain=0x7f050044;
-        public static final int split=0x7f05003a;
-        public static final int tableRow1=0x7f050028;
-        public static final int tableRow2=0x7f05002b;
-        public static final int tvAuthor=0x7f05002d;
-        public static final int tvDuration=0x7f05002a;
-        public static final int tvName=0x7f050029;
-        public static final int tvSinger=0x7f05002c;
-        public static final int tv_coating=0x7f050035;
-        public static final int tv_functions=0x7f050034;
-        public static final int tv_item=0x7f050033;
-        public static final int tv_lyric=0x7f050010;
-        public static final int tv_music_current_position=0x7f050013;
-        public static final int tv_music_current_position2=0x7f050041;
-        public static final int tv_music_duration=0x7f050014;
-        public static final int tv_music_duration2=0x7f050042;
-        public static final int tv_title=0x7f05000a;
-        public static final int tv_top_title=0x7f050021;
-        public static final int vpPager=0x7f050036;
+        public static final int rl_top=0x7f050021;
+        public static final int seekBar1=0x7f050013;
+        public static final int selected_view=0x7f050005;
+        public static final int singer2=0x7f050040;
+        public static final int slidingmenumain=0x7f050045;
+        public static final int split=0x7f05003b;
+        public static final int tableRow1=0x7f050029;
+        public static final int tableRow2=0x7f05002c;
+        public static final int tvAuthor=0x7f05002e;
+        public static final int tvDuration=0x7f05002b;
+        public static final int tvName=0x7f05002a;
+        public static final int tvSinger=0x7f05002d;
+        public static final int tv_coating=0x7f050036;
+        public static final int tv_functions=0x7f050035;
+        public static final int tv_item=0x7f050034;
+        public static final int tv_lyric=0x7f050011;
+        public static final int tv_music_current_position=0x7f050014;
+        public static final int tv_music_current_position2=0x7f050042;
+        public static final int tv_music_duration=0x7f050015;
+        public static final int tv_music_duration2=0x7f050043;
+        public static final int tv_title=0x7f05000b;
+        public static final int tv_top_title=0x7f050022;
+        public static final int vpPager=0x7f050037;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -539,6 +542,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>margin</code></td><td>0</td><td></td></tr>
 <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
           @attr name com.haoge.luanru:touchModeAbove
         */
@@ -556,6 +560,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>margin</code></td><td>0</td><td></td></tr>
 <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
           @attr name com.haoge.luanru:touchModeBehind
         */
